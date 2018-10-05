@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4A1E08A92164A14B003EBA37 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1E08A82164A14B003EBA37 /* main.swift */; };
+		4A1E08B02164A60B003EBA37 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1E08AF2164A60B003EBA37 /* User.swift */; };
+		4A1E08B22164A639003EBA37 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1E08B12164A639003EBA37 /* Tweet.swift */; };
+		4A1E08B42164A649003EBA37 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1E08B32164A649003EBA37 /* Timeline.swift */; };
+		4A1E08B62164A660003EBA37 /* FavoriteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1E08B52164A660003EBA37 /* FavoriteList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		4A1E08A52164A14B003EBA37 /* Twitter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Twitter; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A1E08A82164A14B003EBA37 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4A1E08AF2164A60B003EBA37 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = Entity/User.swift; sourceTree = "<group>"; };
+		4A1E08B12164A639003EBA37 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Tweet.swift; path = Entity/Tweet.swift; sourceTree = "<group>"; };
+		4A1E08B32164A649003EBA37 /* Timeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Entity/Timeline.swift; sourceTree = "<group>"; };
+		4A1E08B52164A660003EBA37 /* FavoriteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FavoriteList.swift; path = Entity/FavoriteList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				4A1E08A82164A14B003EBA37 /* main.swift */,
+				4A1E08AF2164A60B003EBA37 /* User.swift */,
+				4A1E08B12164A639003EBA37 /* Tweet.swift */,
+				4A1E08B32164A649003EBA37 /* Timeline.swift */,
+				4A1E08B52164A660003EBA37 /* FavoriteList.swift */,
 			);
 			path = Twitter;
 			sourceTree = "<group>";
@@ -119,6 +131,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A1E08B62164A660003EBA37 /* FavoriteList.swift in Sources */,
+				4A1E08B42164A649003EBA37 /* Timeline.swift in Sources */,
+				4A1E08B22164A639003EBA37 /* Tweet.swift in Sources */,
+				4A1E08B02164A60B003EBA37 /* User.swift in Sources */,
 				4A1E08A92164A14B003EBA37 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
