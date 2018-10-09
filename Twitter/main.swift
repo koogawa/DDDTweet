@@ -25,4 +25,4 @@ timeline.addTweet(tweet: tweet)
 timeline.addTweet(tweet: tweet2)
 timeline.addTweet(tweet: tweet3)
 
-timeline.showTweets()
+print(timeline.showTweets())

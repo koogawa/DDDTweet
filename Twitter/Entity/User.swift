@@ -15,8 +15,8 @@ struct User {
         self.name = name
     }
 
-    func show() {
-        print(self.name.value, ">")
+    func show() -> String {
+        return self.name.value + ">"
     }
 
     public struct Name {

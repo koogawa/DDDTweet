@@ -20,8 +20,8 @@ struct Tweet {
         self.user = user
     }
 
-    func show() {
-        print(self.user.show(), self.message.value)
+    func show() -> String {
+        return self.user.show() + self.message.value
     }
 
     public struct Id {

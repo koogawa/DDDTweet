@@ -9,10 +9,11 @@
 import Foundation
 
 struct Timeline {
+
     var tweets: [Tweet]
 
-    func showTweets() {
-        tweets.forEach { print($0.user.show(), $0.show()) }
+    func showTweets() -> String {
+        return tweets.map { $0.show() + "\n" }.joined()
     }
 
     mutating func addTweet(tweet: Tweet) {
